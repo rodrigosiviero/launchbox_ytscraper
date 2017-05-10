@@ -68,7 +68,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Youtube.cs" />
     <Compile Include="YouTubeOneClick.cs" />
-    <Compile Include="YoutubeScraper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
