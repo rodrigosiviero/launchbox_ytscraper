@@ -1,0 +1,16 @@
+c:\users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\obj\Debug\YoutubeScraper.csprojResolveAssemblyReference.cache
+c:\users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\bin\Debug\YoutubeScraper.dll.config
+c:\users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\bin\Debug\YoutubeScraper.dll
+c:\users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\bin\Debug\YoutubeScraper.pdb
+c:\users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\bin\Debug\Newtonsoft.Json.dll
+c:\users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\bin\Debug\Unbroken.LaunchBox.Plugins.dll
+c:\users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\bin\Debug\YoutubeExtractor.dll
+c:\users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\bin\Debug\Newtonsoft.Json.xml
+c:\users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\bin\Debug\YoutubeExtractor.xml
+c:\users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\obj\Debug\YoutubeScraper.dll
+c:\users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\obj\Debug\YoutubeScraper.pdb
+c:\users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\bin\Debug\YoutubeExplode.dll
+c:\users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\bin\Debug\YoutubeExplode.xml
+c:\users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\obj\Debug\YoutubeScraper.Form1.resources
+c:\users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\obj\Debug\YoutubeScraper.csproj.GenerateResource.Cache
+C:\Users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\bin\Debug\YoutubeSearch.dll
