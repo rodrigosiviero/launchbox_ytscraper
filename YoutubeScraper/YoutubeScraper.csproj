@@ -67,6 +67,7 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Youtube.cs" />
+    <Compile Include="YoutubeLink.cs" />
     <Compile Include="YouTubeOneClick.cs" />
   </ItemGroup>
   <ItemGroup>

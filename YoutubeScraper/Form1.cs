@@ -20,7 +20,7 @@ namespace YoutubeScraper
             string url = textBox1.Text;
             string id = url.Split('=')[1].Split('.')[0];
             //Como pegar os elementos do Selected game da classe YoutubeScraper?!!?!?
-            //Youtube.youtubeAsync("Doom", id, plataforma);
+            Youtube.youtubeAsync(YoutubeLink.getgame,id,YoutubeLink.getplataforma);
             this.Close();
         }
 

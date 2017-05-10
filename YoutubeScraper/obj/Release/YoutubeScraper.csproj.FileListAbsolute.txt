@@ -13,3 +13,4 @@ C:\Users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScrap
 C:\Users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\obj\Release\YoutubeScraper.csproj.GenerateResource.Cache
 C:\Users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\obj\Release\YoutubeScraper.dll
 C:\Users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\obj\Release\YoutubeScraper.pdb
+C:\Users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\obj\Release\YoutubeScraper.csprojResolveAssemblyReference.cache
