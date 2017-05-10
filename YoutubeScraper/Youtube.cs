@@ -22,6 +22,7 @@ namespace YoutubeScraper
             var streamInfo = videoInfo.MixedStreams.OrderBy(s => s.VideoQuality).Last();
             // Download it to file
             string fileExtension = streamInfo.Container.GetFileExtension();
+            foreach (var c in Path.GetInvalidFileNameChars()) { game = game.Replace(c, ' '); }
             string fileName = $"{game}.{fileExtension}";
             using (var input = await client.GetMediaStreamAsync(streamInfo))
             using (var output = File.Create(Path.Combine(path, "videos", plataforma, fileName)))
