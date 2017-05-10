@@ -24,7 +24,8 @@ namespace YoutubeScraper
             string fileExtension = streamInfo.Container.GetFileExtension();
             string fileName = $"{game}.{fileExtension}";
             using (var input = await client.GetMediaStreamAsync(streamInfo))
-            using (var output = File.Create(path + @"/videos/" + plataforma + "/" + fileName))
+            using (var output = File.Create(Path.Combine(path, "videos", plataforma, fileName)))
+            //using (var output = File.Create(path + @"/videos/" + plataforma + "/" + fileName))
                 await input.CopyToAsync(output);
         }
 
