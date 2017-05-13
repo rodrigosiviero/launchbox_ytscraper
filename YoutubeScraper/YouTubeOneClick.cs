@@ -1,4 +1,6 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
+using System.Windows.Forms;
 using Unbroken.LaunchBox.Plugins;
 using Unbroken.LaunchBox.Plugins.Data;
 
@@ -6,6 +8,7 @@ namespace YoutubeScraper
 {
     class YouTubeOneClick : IGameMenuItemPlugin
     {
+        public static string VideoAlreadyDownload { get; set; }
         public bool SupportsMultipleGames
         {
             get { return true; }
@@ -45,20 +48,32 @@ namespace YoutubeScraper
 
         public void OnSelected(IGame selectedGame)
         {
-            string url = Youtube.YoutubeSearch(selectedGame.Title);
-            string ID = url.Split('=')[1].Split('.')[0];
-            string plataforma = selectedGame.Platform;
-            Youtube.youtubeAsync(selectedGame.Title, ID, plataforma);
+            if (selectedGame.GetVideoPath() != null)
+            {
+                MessageBox.Show("Video for selected game already exists.");
+            }
+            else
+            {
+                string url = Youtube.YoutubeSearch(selectedGame.Title);
+                string ID = url.Split('=')[1].Split('.')[0];
+                string plataforma = selectedGame.Platform;
+                Youtube.youtubeAsync(selectedGame.Title, ID, plataforma);
+            }
+
         }
 
         public void OnSelected(IGame[] selectedGames)
         {
+            
             foreach (var item in selectedGames)
             {
-                string url = Youtube.YoutubeSearch(item.Title);
-                string ID = url.Split('=')[1].Split('.')[0];
-                string plataforma = item.Platform;
-                Youtube.youtubeAsync(item.Title, ID, plataforma);
+                if (item.GetVideoPath() == null)
+                {
+                    string url = Youtube.YoutubeSearch(item.Title);
+                    string ID = url.Split('=')[1].Split('.')[0];
+                    string plataforma = item.Platform;
+                    Youtube.youtubeAsync(item.Title, ID, plataforma);
+                }
             }
         }
     }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Windows.Forms;
 using Unbroken.LaunchBox.Plugins;
 using Unbroken.LaunchBox.Plugins.Data;
 
@@ -16,7 +17,7 @@ namespace YoutubeScraper
 
         public string Caption
         {
-            get { return "YoutubeScraper"; }
+            get { return "Youtube URL Scraper"; }
         }
 
         public System.Drawing.Image IconImage
@@ -48,10 +49,17 @@ namespace YoutubeScraper
 
         public void OnSelected(IGame selectedGame)
         {
-            getplataforma = selectedGame.Platform;
+            getplataforma = selectedGame.Platform;   
             getgame = selectedGame.Title;
-            Form1 frm = new Form1();
-            frm.Show();
+            if (selectedGame.GetVideoPath() != null)
+            {
+                MessageBox.Show("Video for selected game already exists.");
+            }
+            else
+            {
+                Form1 frm = new Form1();
+                frm.Show();
+            }
         }
 
         public void OnSelected(IGame[] selectedGames)

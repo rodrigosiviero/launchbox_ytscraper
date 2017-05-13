@@ -19,7 +19,6 @@ namespace YoutubeScraper
         {
             string url = textBox1.Text;
             string id = url.Split('=')[1].Split('.')[0];
-            //Como pegar os elementos do Selected game da classe YoutubeScraper?!!?!?
             Youtube.youtubeAsync(YoutubeLink.getgame,id,YoutubeLink.getplataforma);
             this.Close();
         }
@@ -27,6 +26,11 @@ namespace YoutubeScraper
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
