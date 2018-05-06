@@ -4,6 +4,7 @@ using System.Linq;
 using System.Reflection;
 using YoutubeExplode;
 using YoutubeExplode.Models;
+using YoutubeExplode.Models.MediaStreams;
 using YoutubeSearch;
 
 namespace YoutubeScraper
@@ -17,9 +18,10 @@ namespace YoutubeScraper
         {
             String path = Path.GetDirectoryName(Assembly.GetEntryAssembly().Location);
             var client = new YoutubeClient();
-            var videoInfo = await client.GetVideoInfoAsync(id);
+            //var videoInfo = await client.GetVideoInfoAsync(id);
+            var streamInfoSet = await client.GetVideoMediaStreamInfosAsync(id);
             // Select the highest quality mixed stream
-            var streamInfo = videoInfo.MixedStreams.OrderBy(s => s.VideoQuality).Last();
+            var streamInfo = streamInfoSet.Muxed.WithHighestVideoQuality();
             // Download it to file
             string fileExtension = streamInfo.Container.GetFileExtension();
             foreach (var c in Path.GetInvalidFileNameChars()) { game = game.Replace(c, ' '); }

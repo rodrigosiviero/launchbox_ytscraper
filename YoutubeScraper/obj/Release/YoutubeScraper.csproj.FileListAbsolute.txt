@@ -7,3 +7,7 @@ C:\Users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScrap
 C:\Users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\bin\Release\YoutubeExplode.dll
 C:\Users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\bin\Release\YoutubeSearch.dll
 C:\Users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\bin\Release\YoutubeExplode.xml
+C:\Users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\bin\Release\AngleSharp.dll
+C:\Users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\bin\Release\Newtonsoft.Json.dll
+C:\Users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\bin\Release\AngleSharp.xml
+C:\Users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\bin\Release\Newtonsoft.Json.xml
