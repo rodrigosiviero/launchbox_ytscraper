@@ -3,11 +3,15 @@ using System.Linq;
 using System.Windows.Forms;
 using Unbroken.LaunchBox.Plugins;
 using Unbroken.LaunchBox.Plugins.Data;
+using YoutubeScraper.Properties;
 
 namespace YoutubeScraper
 {
     class YouTubeOneClick : IGameMenuItemPlugin
     {
+        public static string getplataforma { get; set; }
+        public static string getgame { get; set; }
+        public static IGame[] getgames { get; set; }
         public static string VideoAlreadyDownload { get; set; }
         public bool SupportsMultipleGames
         {
@@ -21,7 +25,7 @@ namespace YoutubeScraper
 
         public System.Drawing.Image IconImage
         {
-            get { return null; }
+            get { return Resources.youtube; }
         }
 
         public bool ShowInLaunchBox
@@ -48,33 +52,23 @@ namespace YoutubeScraper
 
         public void OnSelected(IGame selectedGame)
         {
+            getplataforma = selectedGame.Platform;
+            getgame = selectedGame.Title;
             if (selectedGame.GetVideoPath() != null)
             {
                 MessageBox.Show("Video for selected game already exists.");
             }
-            else
-            {
-                string url = Youtube.YoutubeSearch(selectedGame.Title);
-                string ID = url.Split('=')[1].Split('.')[0];
-                string plataforma = selectedGame.Platform;
-                Youtube.youtubeAsync(selectedGame.Title, ID, plataforma);
+            else { 
+                Form2 oneclickForm = new Form2();
+                oneclickForm.Show();
             }
 
         }
 
         public void OnSelected(IGame[] selectedGames)
         {
-            
-            foreach (var item in selectedGames)
-            {
-                if (item.GetVideoPath() == null)
-                {
-                    string url = Youtube.YoutubeSearch(item.Title);
-                    string ID = url.Split('=')[1].Split('.')[0];
-                    string plataforma = item.Platform;
-                    Youtube.youtubeAsync(item.Title, ID, plataforma);
-                }
-            }
+            Form3 oneclickForm = new Form3();
+            oneclickForm.Show();
         }
     }
 }

@@ -3,6 +3,7 @@ using System.Linq;
 using System.Windows.Forms;
 using Unbroken.LaunchBox.Plugins;
 using Unbroken.LaunchBox.Plugins.Data;
+using YoutubeScraper.Properties;
 
 namespace YoutubeScraper
 {
@@ -22,7 +23,7 @@ namespace YoutubeScraper
 
         public System.Drawing.Image IconImage
         {
-            get { return null; }
+            get { return Resources.youtube; }
         }
 
         public bool ShowInLaunchBox
