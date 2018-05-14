@@ -4,4 +4,8 @@
     <StartAction>Program</StartAction>
     <StartProgram>C:\Users\sur0x\LaunchBox\LaunchBox.exe</StartProgram>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Users\sur0x\LaunchBox\LaunchBox.exe</StartProgram>
+  </PropertyGroup>
 </Project>

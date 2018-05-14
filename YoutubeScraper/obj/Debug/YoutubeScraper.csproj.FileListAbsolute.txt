@@ -1,0 +1,17 @@
+C:\Users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\bin\Debug\YoutubeScraper.dll.config
+C:\Users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\bin\Debug\YoutubeScraper.dll
+C:\Users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\bin\Debug\YoutubeScraper.pdb
+C:\Users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\bin\Debug\AngleSharp.dll
+C:\Users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\bin\Debug\Newtonsoft.Json.dll
+C:\Users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\bin\Debug\YoutubeExplode.dll
+C:\Users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\bin\Debug\YoutubeSearch.dll
+C:\Users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\bin\Debug\AngleSharp.xml
+C:\Users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\bin\Debug\Newtonsoft.Json.xml
+C:\Users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\bin\Debug\YoutubeExplode.xml
+C:\Users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\obj\Debug\YoutubeScraper.Form1.resources
+C:\Users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\obj\Debug\YoutubeScraper.Form2.resources
+C:\Users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\obj\Debug\YoutubeScraper.Form3.resources
+C:\Users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\obj\Debug\YoutubeScraper.Properties.Resources.resources
+C:\Users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\obj\Debug\YoutubeScraper.csproj.GenerateResource.Cache
+C:\Users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\obj\Debug\YoutubeScraper.dll
+C:\Users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\obj\Debug\YoutubeScraper.pdb

@@ -67,6 +67,7 @@ namespace YoutubeScraper
 
         public void OnSelected(IGame[] selectedGames)
         {
+            getgames = selectedGames;
             Form3 oneclickForm = new Form3();
             oneclickForm.Show();
         }
