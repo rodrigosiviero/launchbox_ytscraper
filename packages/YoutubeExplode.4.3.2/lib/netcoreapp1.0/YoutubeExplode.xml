@@ -27,9 +27,6 @@
             ID of a preview video that can be watched for free.
             </summary>
         </member>
-        <member name="P:YoutubeExplode.Exceptions.VideoRequiresPurchaseException.Message">
-            <inheritdoc />
-        </member>
         <member name="M:YoutubeExplode.Exceptions.VideoRequiresPurchaseException.#ctor(System.String,System.String)">
             <summary />
         </member>
@@ -52,9 +49,6 @@
             <summary>
             Error reason reported by YouTube.
             </summary>
-        </member>
-        <member name="P:YoutubeExplode.Exceptions.VideoUnavailableException.Message">
-            <inheritdoc />
         </member>
         <member name="M:YoutubeExplode.Exceptions.VideoUnavailableException.#ctor(System.String,System.Int32,System.String)">
             <summary />
@@ -516,13 +510,21 @@
         <member name="M:YoutubeExplode.Models.MediaStreams.MediaStream.#ctor(YoutubeExplode.Models.MediaStreams.MediaStreamInfo,System.IO.Stream)">
             <summary />
         </member>
-        <member name="M:YoutubeExplode.Models.MediaStreams.MediaStream.Flush">
-            <inheritdoc />
-        </member>
         <member name="M:YoutubeExplode.Models.MediaStreams.MediaStream.Read(System.Byte[],System.Int32,System.Int32)">
             <inheritdoc />
         </member>
+        <member name="M:YoutubeExplode.Models.MediaStreams.MediaStream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)">
+            <inheritdoc />
+        </member>
         <member name="M:YoutubeExplode.Models.MediaStreams.MediaStream.Seek(System.Int64,System.IO.SeekOrigin)">
+            <inheritdoc />
+        </member>
+        <member name="M:YoutubeExplode.Models.MediaStreams.MediaStream.Dispose(System.Boolean)">
+            <summary>
+            Disposes resources.
+            </summary>
+        </member>
+        <member name="M:YoutubeExplode.Models.MediaStreams.MediaStream.Flush">
             <inheritdoc />
         </member>
         <member name="M:YoutubeExplode.Models.MediaStreams.MediaStream.SetLength(System.Int64)">
@@ -530,11 +532,6 @@
         </member>
         <member name="M:YoutubeExplode.Models.MediaStreams.MediaStream.Write(System.Byte[],System.Int32,System.Int32)">
             <inheritdoc />
-        </member>
-        <member name="M:YoutubeExplode.Models.MediaStreams.MediaStream.Dispose(System.Boolean)">
-            <summary>
-            Disposes resources.
-            </summary>
         </member>
         <member name="T:YoutubeExplode.Models.MediaStreams.MediaStreamInfo">
             <summary>
@@ -832,8 +829,8 @@
             </summary>
         </member>
         <member name="P:YoutubeExplode.Models.Playlist.Type">
-            Type of this playlist.
             <summary>
+            Type of this playlist.
             </summary>
         </member>
         <member name="P:YoutubeExplode.Models.Playlist.Author">
