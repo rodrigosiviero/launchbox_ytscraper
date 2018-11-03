@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Globalization;
 using System.IO;
-using System.Linq;
 using System.Reflection;
 using YoutubeExplode;
-using YoutubeExplode.Models;
 using YoutubeExplode.Models.MediaStreams;
 using YoutubeSearch;
 
