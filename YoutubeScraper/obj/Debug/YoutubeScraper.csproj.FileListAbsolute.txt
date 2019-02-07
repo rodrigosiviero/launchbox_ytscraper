@@ -15,3 +15,4 @@ C:\Users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScrap
 C:\Users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\obj\Debug\YoutubeScraper.csproj.GenerateResource.Cache
 C:\Users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\obj\Debug\YoutubeScraper.dll
 C:\Users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\obj\Debug\YoutubeScraper.pdb
+C:\Users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\obj\Debug\YoutubeScraper.Form4.resources
