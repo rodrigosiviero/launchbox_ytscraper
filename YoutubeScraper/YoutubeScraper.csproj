@@ -52,8 +52,8 @@
       <HintPath>..\..\..\..\..\LaunchBox\Metadata\Unbroken.LaunchBox.Plugins.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="YoutubeExplode, Version=4.6.4.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\YoutubeExplode.4.6.4\lib\net45\YoutubeExplode.dll</HintPath>
+    <Reference Include="YoutubeExplode, Version=4.6.8.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\YoutubeExplode.4.6.8\lib\net45\YoutubeExplode.dll</HintPath>
     </Reference>
     <Reference Include="YoutubeSearch, Version=0.1.1.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\YoutubeSearch.dll.1.1\lib\YoutubeSearch.dll</HintPath>
