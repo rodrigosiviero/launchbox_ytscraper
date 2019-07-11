@@ -15,3 +15,27 @@ C:\Users\sur0x\Documents\Visual Studio 2017\Projects\YoutubeScraper\YoutubeScrap
 C:\Users\sur0x\Documents\Visual Studio 2017\Projects\YoutubeScraper\YoutubeScraper\obj\Release\YoutubeScraper.csproj.GenerateResource.Cache
 C:\Users\sur0x\Documents\Visual Studio 2017\Projects\YoutubeScraper\YoutubeScraper\obj\Release\YoutubeScraper.dll
 C:\Users\sur0x\documents\visual studio 2017\Projects\YoutubeScraper\YoutubeScraper\obj\Release\YoutubeScraper.csprojResolveAssemblyReference.cache
+C:\Users\rodri\Source\Repos\launchbox_ytscraper\YoutubeScraper\obj\Release\YoutubeScraper.csprojAssemblyReference.cache
+C:\Users\rodri\Source\Repos\launchbox_ytscraper\YoutubeScraper\obj\Release\YoutubeScraper.Form1.resources
+C:\Users\rodri\Source\Repos\launchbox_ytscraper\YoutubeScraper\obj\Release\YoutubeScraper.Form2.resources
+C:\Users\rodri\Source\Repos\launchbox_ytscraper\YoutubeScraper\obj\Release\YoutubeScraper.Form3.resources
+C:\Users\rodri\Source\Repos\launchbox_ytscraper\YoutubeScraper\obj\Release\YoutubeScraper.Form4.resources
+C:\Users\rodri\Source\Repos\launchbox_ytscraper\YoutubeScraper\obj\Release\YoutubeScraper.Properties.Resources.resources
+C:\Users\rodri\Source\Repos\launchbox_ytscraper\YoutubeScraper\obj\Release\YoutubeScraper.csproj.GenerateResource.cache
+C:\Users\rodri\Source\Repos\launchbox_ytscraper\YoutubeScraper\obj\Release\YoutubeScraper.csproj.CoreCompileInputs.cache
+C:\Users\rodri\Source\Repos\launchbox_ytscraper\YoutubeScraper\obj\Release\YoutubeScraper.dll
+C:\Users\rodri\Source\Repos\launchbox_ytscraper\YoutubeScraper\bin\Release\YoutubeScraper.dll.config
+C:\Users\rodri\Source\Repos\launchbox_ytscraper\YoutubeScraper\bin\Release\YoutubeScraper.dll
+C:\Users\rodri\Source\Repos\launchbox_ytscraper\YoutubeScraper\bin\Release\AngleSharp.dll
+C:\Users\rodri\Source\Repos\launchbox_ytscraper\YoutubeScraper\bin\Release\LtGt.dll
+C:\Users\rodri\Source\Repos\launchbox_ytscraper\YoutubeScraper\bin\Release\Newtonsoft.Json.dll
+C:\Users\rodri\Source\Repos\launchbox_ytscraper\YoutubeScraper\bin\Release\Sprache.dll
+C:\Users\rodri\Source\Repos\launchbox_ytscraper\YoutubeScraper\bin\Release\Unbroken.LaunchBox.Plugins.dll
+C:\Users\rodri\Source\Repos\launchbox_ytscraper\YoutubeScraper\bin\Release\YoutubeExplode.dll
+C:\Users\rodri\Source\Repos\launchbox_ytscraper\YoutubeScraper\bin\Release\YoutubeSearch.dll
+C:\Users\rodri\Source\Repos\launchbox_ytscraper\YoutubeScraper\bin\Release\AngleSharp.xml
+C:\Users\rodri\Source\Repos\launchbox_ytscraper\YoutubeScraper\bin\Release\LtGt.xml
+C:\Users\rodri\Source\Repos\launchbox_ytscraper\YoutubeScraper\bin\Release\Newtonsoft.Json.xml
+C:\Users\rodri\Source\Repos\launchbox_ytscraper\YoutubeScraper\bin\Release\Sprache.xml
+C:\Users\rodri\Source\Repos\launchbox_ytscraper\YoutubeScraper\bin\Release\YoutubeExplode.xml
+C:\Users\rodri\Source\Repos\launchbox_ytscraper\YoutubeScraper\obj\Release\YoutubeScraper.csproj.CopyComplete
