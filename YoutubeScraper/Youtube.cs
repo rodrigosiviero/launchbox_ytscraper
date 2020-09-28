@@ -3,7 +3,7 @@ using System.Globalization;
 using System.IO;
 using System.Reflection;
 using YoutubeExplode;
-using YoutubeExplode.Models.MediaStreams;
+using YoutubeExplode.Videos.Streams;
 using YoutubeSearch;
 
 namespace YoutubeScraper
@@ -12,7 +12,6 @@ namespace YoutubeScraper
     class Youtube
     {
         private static string firstVideo;
-        string queryWord = "";
         static TimeSpan t1;
         static TimeSpan tsDuration;
 
@@ -21,18 +20,21 @@ namespace YoutubeScraper
             String path = Path.GetDirectoryName(Assembly.GetEntryAssembly().Location);
             var client = new YoutubeClient();
             //var videoInfo = await client.GetVideoInfoAsync(id);
-            var video = await client.GetVideoAsync(id);
-            var streamInfoSet = await client.GetVideoMediaStreamInfosAsync(id);
-            // Select the highest quality mixed stream
-            var streamInfo = streamInfoSet.Muxed.WithHighestVideoQuality();
+            var video = await client.Videos.Streams.GetManifestAsync(id);
+            var streamInfoSet = video.GetMuxed().WithHighestVideoQuality();
             // Download it to file
-            string fileExtension = streamInfo.Container.GetFileExtension();
+            string fileExtension = streamInfoSet.Container.Name;
             foreach (var c in Path.GetInvalidFileNameChars()) { game = game.Replace(c, ' '); }
             string fileName = $"{game}.{fileExtension}";
-            using (var input = await client.GetMediaStreamAsync(streamInfo))
-            using (var output = File.Create(Path.Combine(path, "videos", plataforma, fileName)))
+            var output_file = Path.Combine(path, "videos", plataforma, fileName);
+            if (streamInfoSet != null)
+            {
+                await client.Videos.Streams.DownloadAsync(streamInfoSet, output_file);
+            }
+            //using (var input = await client.GetMediaStreamAsync(streamInfo))
+            //using (var output = File.Create(Path.Combine(path, "videos", plataforma, fileName)))
             //using (var output = File.Create(path + @"/videos/" + plataforma + "/" + fileName))
-                await input.CopyToAsync(output);
+            // await input.CopyToAsync(output);
         }
 
         public static String YoutubeSearch(string query, string word)
